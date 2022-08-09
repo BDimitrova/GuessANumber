@@ -5,7 +5,6 @@ function guessANumber() {
     });
 
     let computerGuess = Math.floor(Math.random() * 100);
-    console.log(computerGuess);
 
     let recursiveAsyncReadLine = function () {
         readline.question('Guess the number (0-100): ', number => {
